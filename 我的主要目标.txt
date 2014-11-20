@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-09-28T09:36:44+08:00
+
+====== 我的主要目标 ======
+Created 星期五 28 九月 2012
+
+CSS
+1.Head First HTML and CSS, XHTML 
+
+Javascript
+入门 Eloquent Javascript 
+
+网站
+http://www.w3schools.com/

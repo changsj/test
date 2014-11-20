@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2012-09-20T23:21:38+08:00
+
+====== Ubuntu ======
+Created 星期四 20 九月 2012
+
+
+[[+编译安装]]
+[[+其他命令:权限]]
+解压
+sudo tar xvzf
+tar xzf rails4-code.tgz
+
+获取 root 权限
+sudo su
+然后可以 
+sudo add-apt-repository .... 如
+add-apt-repository ppa:ppa:bitcoin/bitcoin
+
+=== 查看进程 ===
+ps -ef | grep boogu
+kill -9 4894
+
+=== 查看进程2 ===
+ps -e
+kill -9 12342
+
+sudo gdebi package.deb   //安装
+sudo dpkg -i package.deb
+apt-get remove <firefox>  //删除已安装的软件包（保留配置文件）
+**sudo apt-get remove --purge <firefox>**  //**删除包，包括删除配置文件等**
+
+
+字体文件
+/usr/share/fonts
+
+=== 环境变量 ===
+
+sudo gedit /etc/profile  //所有用户环境变量
+sudo gedit ~/.profile   //一个用户的环境变量
+
+图标
+/usr/share/applications/rubymine.desktop
+/home/csj/.local/share/applications/jetbrains-rubymine.desktop
+
+
